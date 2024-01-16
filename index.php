@@ -20,10 +20,22 @@
 
             <div class="row">
                 <div class="col-12">
+
+                            <div v-for="element in dischi" class="card">
+                                
+                                <div class="card-body">
+                                    <h5 class="card-title">  {{ element }}  </h5>
+                                    <p class="card-text"> </p>
+                                </div>
+                            </div>
+
+
+
+                
                     <ul class="list-group">
-                        <li class="list-group-item" v-for="(element, index) in dischi">
+                        <!-- <li class="list-group-item" v-for="(element, index) in dischi">
                             {{ element }}
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
@@ -54,7 +66,7 @@
     methods: {
         getDischiList(){
             axios.get(this.apiUrl).then((response) =>{ 
-                this.dischi = (response.data)
+                this.dischi = (response.data);
 
                 console.log(response.data)
             })
