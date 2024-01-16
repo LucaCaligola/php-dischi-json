@@ -1,12 +1,57 @@
 [
     {
-        "title" : "Il bello, il brutto e il cattivo",
+        "title" : "The Ecstasy Of Gold",
+        "artist" : "Ennio Morricone",
+        "year" : "1967",
+        "img" : "https://m.media-amazon.com/images/I/711l+7fMlOL._UF1000,1000_QL80_.jpg"
         
     },
 
     {
-        "title" : "Il bello",
+        "title" : "The Good, The Bad And The Ugly",
+        "artist" : "Ennio Morricone",
+        "year" : "1967",
+        "img" : "https://m.media-amazon.com/images/I/711l+7fMlOL._UF1000,1000_QL80_.jpg"
         
     },
+
+
+    {
+        "title" : "Per un pugno di Dollari",
+        "artist" : "Ennio Morricone",
+        "year" : "1964",
+        "img" : "https://m.media-amazon.com/images/I/51SdlhU7ngL._UF1000,1000_QL80_.jpg"
+        
+    },
+
+    {
+        "title" : "Time",
+        "artist" : "Hans Zimmer",
+        "year" : "2010",
+        "img" : "https://m.media-amazon.com/images/I/81CgNB2mglL._UF1000,1000_QL80_.jpg"
+        
+    },
+
+    {
+        "title" : "Now We Are Free",
+        "artist" : "Hans Zimmer",
+        "year" : "2000",
+        "img" : "https://i.ebayimg.com/images/g/RccAAOSwcTJgLU~0/s-l1200.webp"
+        
+    },
+
+    {
+        "title" : "1812 Ouverture",
+        "artist" : "Tchaikovsky",
+        "year" : "1880",
+        "img" : "https://m.media-amazon.com/images/I/51cBlDoBM-L._UXNaN_FMjpg_QL85_.jpg"
+        
+    }
+
+    
+
+    
+
+    
 ]
  

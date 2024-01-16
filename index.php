@@ -10,36 +10,47 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 
 
     <div id="app">
-    <div class="container">
+        
+   
 
-            <div class="row">
-                <div class="col-12">
+        <header>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png" alt="Spotify logo" class="my-3 mx-5">
+        </header>
 
-                            <div v-for="element in dischi" class="card">
-                                
-                                <div class="card-body">
-                                    <h5 class="card-title">  {{ element }}  </h5>
-                                    <p class="card-text"> </p>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-beetween flex-wrap ">
+
+                            <div v-for="element in dischi" class="">
+                        
+                                <div class="dischi text-white my-3 mx-3 rounded">
+                                    <div class="my-card text-center">
+                                        <img :src="element.img" alt="element.title" class="my-3">
+                                        <h6 class="card-title">  {{ element.title }}  </h6>
+                                        <p class="card-text pt-3 fst-italic"> {{ element.artist }}</p>
+                                        <p> {{ element.year }} </p>
+                                    </div>
                                 </div>
                             </div>
 
 
 
-                
-                    <ul class="list-group">
-                        <!-- <li class="list-group-item" v-for="(element, index) in dischi">
-                            {{ element }}
-                        </li> -->
-                    </ul>
+
+                        
+                    </div>
                 </div>
             </div>
-        </div>
+
+        </main>
 
 
 
